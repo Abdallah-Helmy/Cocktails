@@ -1,0 +1,29 @@
+.about .container .about-info {
+    width: 65%;
+    margin: 0px auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.about .container .about-info p {
+    letter-spacing: 3px;
+    line-height: 1.8;
+}
+/*--------------------------------------------------------------*/
+
+@media (max-width: 740px) {
+    .about .container .about-info {
+        width: 100%;
+    }
+}
+@media (min-width:740px) and (max-width: 1200px) {
+    .about .container .about-info {
+        width: 90%;
+    }
+}

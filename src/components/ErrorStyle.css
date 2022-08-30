@@ -1,0 +1,25 @@
+.container .error-msg {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.container .back {
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;    
+}
+
+.container .back span {
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #476a2e;
+    color: #fff;
+    letter-spacing: 3px;
+    transition: all .3s  ease;
+}
+
+.container .back span:hover {
+  background-color: #d4e6a5;
+  color: #000;
+}

@@ -1,0 +1,43 @@
+nav .container ul li a {
+    color: #000;
+}
+
+nav .container ul li a.active {
+    background-color: #d4e6a5;
+    color: #000;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 9px 1px;
+    background-color: #fff;
+}
+
+nav .container  {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container svg {
+    width: 200px;
+    cursor: pointer;
+}
+
+nav .container ul {
+    display: flex;
+}
+
+nav .container ul li {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+}

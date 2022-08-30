@@ -1,0 +1,40 @@
+.single-item .container .info h1 {
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+.single-item .container .info .more-info {
+    display: flex;
+    align-items: center;
+}
+
+.single-item .container .info .more-info img {
+   width: 400px;
+   margin-right: 46px;
+}
+
+.single-item .container .info .more-info .about h2{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.single-item .container .info .more-info .about h2 span{
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: #d4e6a5;  
+    color: #476a2e;
+    margin-right: 15px;
+}
+/*---------------------------------------------------------------------*/
+@media (max-width: 1100px) {
+    .single-item .container .info .more-info {
+        flex-direction: column;
+    }
+
+    .single-item .container .info .more-info img {
+        width: 100%;
+        margin: 30px 0;
+    }
+}

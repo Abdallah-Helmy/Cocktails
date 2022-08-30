@@ -1,0 +1,88 @@
+.cocktail {
+    margin-top: 50px;
+}
+
+.container .heading {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.container .main-content {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.container .main-content .card {
+    background-color: #fff;
+    box-shadow: 3px 3px 9px 0px;
+    transition: box-shadow .3s ease;
+}
+
+.container .main-content .card:hover {
+    box-shadow: 8px 8px 15px 0px;
+}
+
+.container .main-content .card img{
+    width: 100%;
+    object-fit: cover;
+    border: 5px;
+}
+
+.container .main-content .card .about-cocktail {
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+.container .main-content .card .about-cocktail h2 {
+    font-size: 35px;
+    margin-bottom: 0.3rem;
+}
+
+.container .main-content .card .about-cocktail p {
+    color: #afafaf;
+    letter-spacing: 1px;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.container .main-content .card .about-cocktail button {
+    display: block;
+    border: none;
+    background-color: #476a2e;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+
+.container .main-content .card .about-cocktail button:hover {
+    color: #000;
+    background-color: #d4e6a5;
+}
+/*--------------------------------------------------------------------*/
+.not-match .container {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+/*--------------------------------------------------------------------*/
+@media (max-width: 740px) {
+    .container .main-content {
+        grid-template-columns: minmax(300px, 1fr);
+    }
+}
+@media (min-width:740px) and (max-width: 1100px) {
+    .container .main-content {
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+}

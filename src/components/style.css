@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*------------------------------------------------------------------------------------*/
+.main {
+    background-color: rgb(241 245 248);
+    padding-top: 70px;
+    margin-top: 10px;
+    min-height: calc(100vh - 108px);
+}
+/*------------------------------------------------------------------------------------*/
